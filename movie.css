@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	position: relative;
+	min-width: 1000px;
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	background-image: url(http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/background.png);
+}
+
+.banner {
+	text-align: center;
+	background-image: url(http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/bannerbackground.png);
+	background-repeat: repeat-x;
+}
+
+.banner img {
+	vertical-align: bottom;
+}
+
+h1 {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.overall-contnet {
+	width: 800px;
+	margin: 0 auto;
+	border: 4px solid gray;
+}
+
+.right-box, .left-box {
+	float:right;
+}
+
+.left-box {
+	width: 550px;
+}
+
+.left-box .img-box {
+	background-image: url(http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/2/rottenbackground.png);
+	background-repeat: repeat-x;
+}
+
+.left-box .img-box img {
+	vertical-align: bottom;
+}
+
+.left-box .img-box > .rate {
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	vertical-align: bottom;
+}
+
+.left-box .img-box > .amount {
+	font-size: 8pt;
+	font-weight: normal;
+	color: white;
+	vertical-align: bottom;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.left-box .column {
+	float: left;
+	width: 47%;
+	margin: 0 2%;
+	margin-top: 10px;
+}
+
+.left-box .column2 {
+	margin-left: 0;
+}
+
+.left-box .column .quote-box {
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #E1D697;
+	border: 2px solid gray;
+	padding: 8px;
+	min-height: 25px;
+}
+
+.left-box .column .quote-box img {
+	float: left;
+	margin-right: 5px;
+}
+
+.left-box .column .reviewer-info {
+	min-height: 30px;
+	margin-top: 1em;
+	margin-bottom: 3em;
+}
+
+.left-box .column .reviewer-info img {
+	float: left;
+	margin-right: 5px;
+}
+
+.left-box .column .reviewer-info .publication {
+	font-style: italic;
+}
+
+.right-box {
+	width: 250px;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+}
+
+.right-box dl {
+	margin: 0 10px;
+}
+
+.right-box dl dt {
+	margin-top: 1em;
+}
+
+.right-box dl dd {
+	margin-left: 40px;
+}
+
+.right-box dt {
+	font-weight: bold;
+}
+
+.overall-contnet > p {
+	padding: 5px 0;
+	background-color: #A2B964;
+	text-align: center;
+	clear: both;
+}
+
+.validators {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
